@@ -43,11 +43,15 @@ A curated list of resources I used while writing these notes. Read them in rough
 
 ---
 
-## Bonus - visual / blog
+## Bonus - visual / interactive
+
+- **Transformer Explainer** - Polo Club, Georgia Tech
+  [https://poloclub.github.io/transformer-explainer/](https://poloclub.github.io/transformer-explainer/)
+  An excellent interactive visualization that lets you step through a live GPT-2 model in your browser - tokenization, embeddings, Q/K/V, attention maps, MLP, softmax, and next-token sampling. The single best way to *see* every concept in this repo come alive. Highly recommended to play with after reading these notes.
 
 - **The Illustrated Transformer** - Jay Alammar
   [https://jalammar.github.io/illustrated-transformer/](https://jalammar.github.io/illustrated-transformer/)
-  The single best visual explanation of the Transformer on the internet.
+  The single best static visual explanation of the Transformer on the internet.
 
 - **The Illustrated Word2vec** - Jay Alammar
   [https://jalammar.github.io/illustrated-word2vec/](https://jalammar.github.io/illustrated-word2vec/)

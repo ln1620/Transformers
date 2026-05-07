@@ -48,6 +48,14 @@ flowchart LR
     Dec --> Out[Output text]
 ```
 
+### The original Transformer architecture
+
+The diagram below is the canonical architecture from the **"Attention Is All You Need"** paper (Vaswani et al., 2017). Every concept in this repo is one of the colored boxes.
+
+![Transformer architecture - Vaswani et al. 2017](assets/transformer-architecture.png)
+
+Want to see this in action? The [Transformer Explainer](https://poloclub.github.io/transformer-explainer/) lets you step through a live GPT-2 model in your browser - watch tokenization, Q/K/V, attention maps, and softmax happen on real input. Highly recommended.
+
 ---
 
 ## Table of Contents
@@ -83,6 +91,7 @@ flowchart LR
 - **Article:** [GeeksforGeeks - Transformers in Machine Learning](https://www.geeksforgeeks.org/getting-started-with-transformers/)
 - **Article:** [GeeksforGeeks - Self-Attention in NLP](https://www.geeksforgeeks.org/self-attention-in-nlp/)
 - **Video:** [codebasics - Transformer Architecture (YouTube)](https://www.youtube.com/watch?v=TQQlZhbC5ps)
+- **Interactive:** [Transformer Explainer - poloclub.github.io](https://poloclub.github.io/transformer-explainer/)
 - **Bonus:** [The Illustrated Transformer - Jay Alammar](https://jalammar.github.io/illustrated-transformer/)
 
 Full annotated list: [references.md](references.md).

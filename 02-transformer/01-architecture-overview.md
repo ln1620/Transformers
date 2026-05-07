@@ -8,6 +8,21 @@ A Transformer has two parts: an **encoder** and a **decoder**.
 
 ---
 
+## The original architecture (Vaswani et al., 2017)
+
+This is figure 1 from the "Attention Is All You Need" paper - the diagram every transformer tutorial references.
+
+![Transformer architecture - Vaswani et al. 2017](../assets/transformer-architecture.png)
+
+- **Left stack** = encoder, repeated N times.
+- **Right stack** = decoder, repeated N times.
+- The arrows from the encoder into the middle of the decoder are the **encoder-decoder attention** (the decoder looking back at the input).
+- At the very top: a Linear + Softmax converts the decoder's output vector into a probability distribution over the vocabulary.
+
+Want to see this run on real text? The interactive [**Transformer Explainer**](https://poloclub.github.io/transformer-explainer/) walks through this exact architecture step-by-step on a live GPT-2 model.
+
+---
+
 ## The big diagram
 
 ```mermaid
